@@ -1,13 +1,37 @@
 {
-  "name": "@yanotec/eslint-config",
+  "name": "@yanotec/eslint-config-node",
   "version": "1.0.0",
-  "private": false,
-  "description": "ESLint configuration used by Yanotec.",
+  "description": "ESLint configuration for nodejs used by Yanotec.",
   "main": "index.js",
-  "license": "MIT",
   "repository": {
-    "url": "yanotec/eslint-config-yanotec"
+    "type": "git",
+    "url": "git+https://github.com/yanotec/eslint-config-yanotec.git"
   },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018",
+    "es2019",
+    "es2020",
+    "es2021",
+    "es2022"
+  ],
+  "author": "Jonathan C. Calixto (https://github.com/jonathanccalixto)",
+  "contributors": [
+    {
+      "name": "Jonathan C. Calixto",
+      "url": "https://github.com/jonathanccalixto"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yanotec/eslint-config-yanotec/issues"
+  },
+  "homepage": "https://github.com/yanotec/eslint-config-yanotec#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",
