@@ -1,0 +1,58 @@
+{
+    "name": "@yanotec/eslint-config-react-native",
+    "version": "0.0.1",
+    "description": "ESLint configuration for React-Native used by Yanotec.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yanotec/eslint-config-yanotec.git"
+    },
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "config",
+        "es2015",
+        "es2016",
+        "es2017",
+        "es2018",
+        "es2019",
+        "es2020",
+        "es2021",
+        "es2022"
+    ],
+    "author": "Jonathan C. Calixto (https://github.com/jonathanccalixto)",
+    "contributors": [
+        {
+            "name": "Jonathan C. Calixto",
+            "url": "https://github.com/jonathanccalixto"
+        }
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/yanotec/eslint-config-yanotec/issues"
+    },
+    "homepage": "https://github.com/yanotec/eslint-config-yanotec#readme",
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.25.0",
+        "@typescript-eslint/parser": "^5.25.0",
+        "eslint": "^7.32.0 || ^8.2.0",
+        "eslint-config-airbnb": "^19.0.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-import-resolver-typescript": "^3.0.0",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-jsx-a11y": "^6.5.1",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-react": "^7.28.0",
+        "eslint-plugin-react-hooks": "^4.3.0",
+        "prettier": "^2.6.2"
+    },
+    "peerDependencies": {
+        "eslint": "^7.32.0 || ^8.2.0",
+        "typescript": ">=3.3.1"
+    },
+    "peerDependenciesMeta": {
+        "typescript": {
+            "optional": true
+        }
+    }
+}
