@@ -7,7 +7,19 @@ module.exports = {
   overrides: [
     {
       files: ['*.json'],
-      rules: { 'no-unused-expressions': 'off' },
+      rules: {
+        'no-unused-expressions': 'off',
+        'prettier/prettier': [
+          'error',
+          {
+            printWidth: 80,
+            singleQuote: false,
+            tabs: false,
+            tabWidth: 4,
+            trailingComma: 'none',
+          },
+        ],
+      },
     },
   ],
   parserOptions: {

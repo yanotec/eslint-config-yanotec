@@ -14,6 +14,16 @@ module.exports = {
       rules: {
         'no-unused-expressions': 'off',
         '@typescript-eslint/no-unused-expressions': 'off',
+        'prettier/prettier': [
+          'error',
+          {
+            printWidth: 80,
+            singleQuote: false,
+            tabs: false,
+            tabWidth: 4,
+            trailingComma: 'none',
+          },
+        ],
       },
     },
   ],
@@ -82,6 +92,9 @@ module.exports = {
   settings: {
     'import/parsers': {
       [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
+    },
+    'import/resolver': {
+      typescript: {},
     },
   },
 };
