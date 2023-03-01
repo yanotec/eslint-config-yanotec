@@ -28,7 +28,7 @@ module.exports = {
   },
   plugins: ['prettier'],
   rules: {
-    'import/extensions': ['error', 'ignorePackages', { ts: 'never' }],
+    'import/extensions': ['error', 'ignorePackages', { js: 'never' }],
     'import/order': [
       'error',
       {
