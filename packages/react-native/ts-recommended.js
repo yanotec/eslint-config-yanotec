@@ -71,7 +71,7 @@ module.exports = {
         pathGroups: [
           {
             pattern:
-              '{react,react-native,styled-components,styled-components/native}',
+              '{react,react-native,react-dom}',
             group: 'external',
             position: 'before',
           },
