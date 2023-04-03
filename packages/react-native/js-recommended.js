@@ -70,6 +70,7 @@ module.exports = {
       'error',
       {
         arrowParens: 'always',
+        bracketSpacing: true,
         printWidth: 80,
         singleQuote: true,
         tabs: false,
