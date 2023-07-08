@@ -98,7 +98,7 @@ module.exports = {
       },
     ],
     'import/prefer-default-export': 'off',
-    'no-console': 'error',
+    'no-console': ['error', { allow: ["warn", "error"] }],
     'no-unused-expressions': 'off',
     'no-unused-vars': 'off',
     'no-use-before-define': 'off',

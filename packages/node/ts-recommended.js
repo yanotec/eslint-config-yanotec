@@ -74,7 +74,7 @@ module.exports = {
       },
     ],
     'import/prefer-default-export': 'off',
-    'no-console': 'error',
+    'no-console': ['error', { allow: ["warn", "error"] }],
     'no-use-before-define': 'off',
     'no-useless-constructor': 'off',
     'prettier/prettier': [
