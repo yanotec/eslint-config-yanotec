@@ -1,6 +1,6 @@
 {
     "name": "@yanotec/eslint-config-reactjs",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "ESLint configuration for ReactJS used by Yanotec.",
     "main": "index.js",
     "repository": {
