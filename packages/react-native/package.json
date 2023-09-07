@@ -1,6 +1,6 @@
 {
     "name": "@yanotec/eslint-config-react-native",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "ESLint configuration for React-Native used by Yanotec.",
     "main": "index.js",
     "repository": {
